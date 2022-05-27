@@ -1,17 +1,14 @@
 # Anastasiya Belduygova
 
-:::row:::
-    :::column:::
-        
-    :::column-end:::
-    :::column:::
-        
-    :::column-end:::
-:::row-end:::
+:::image type="content" source="../../1.jpg" alt-text="photo":::
+
+**********
 
 ## Contacts:
 **Diskord:** @Styunich
+
 **Tel:** +7-930-790-70-51
+
 **E-mail:** virgo_magna@mail.ru
 
 ## About me:
