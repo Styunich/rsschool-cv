@@ -42,3 +42,25 @@ function disemvowel(str) {
   return str.replace(/[aeiou]/gi, ''); 
 }
 ```  
+
+## Work experience:
+***Head of Representative Office/branch*** - 11/2015-10/2019  
+**Business Lines** (transport and logistics company)  
+
+- Reduced the average annual employee turnover rate from 20% to 3%. Turnover among department heads for 4 years was 0%
+- According to the results of the work, the average increase in the division's turnover was 17% per year
+- Increased the unit's profitability from 15% to 37%, overfulfillment of the profit plan for the last reporting period was 140%
+- The representative branchI lead has repeatedly been awarded the title of "the best division in the region
+
+
+***Claims manager*** - 07/2012-10/2015  
+**Business Lines** (transport and logistics company)  
+ - taking all possible measures to settle claims of customers of the company for the carriage of goods at the stage of their occurrence
+ - control the correct conduct of inventory of the warehouse
+ - record-keeping and distribution of fines and reimbursements on the basis of submitted documents (reports, official notes, etc.)
+
+***Account manager*** - 12/2007-09/2010  
+** VTB Bank**  
+- Identification of customers' needs and their focus on the Bank’s key products: training on the McKinsey project, seven stages of sales, handling objections
+- Product (service) presentation in the client’s language, adaptation of the sales style to the client’s preferences
+- Collection and study of documents, visual assessment of clients, analysis of solvency of individuals and  
