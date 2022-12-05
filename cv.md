@@ -55,12 +55,27 @@ function disemvowel(str) {
 
 ***Claims manager*** - 07/2012-10/2015  
 **Business Lines** (transport and logistics company)  
- - taking all possible measures to settle claims of customers of the company for the carriage of goods at the stage of their occurrence
- - control the correct conduct of inventory of the warehouse
- - record-keeping and distribution of fines and reimbursements on the basis of submitted documents (reports, official notes, etc.)
+ - Taking all possible measures to settle claims of customers of the company for the carriage of goods at the stage of their occurrence
+ - Control the correct conduct of inventory of the warehouse
+ - Record-keeping and distribution of fines and reimbursements on the basis of submitted documents (reports, official notes, etc.)
 
 ***Account manager*** - 12/2007-09/2010  
-** VTB Bank**  
+**VTB Bank**  
 - Identification of customers' needs and their focus on the Bank’s key products: training on the McKinsey project, seven stages of sales, handling objections
 - Product (service) presentation in the client’s language, adaptation of the sales style to the client’s preferences
-- Collection and study of documents, visual assessment of clients, analysis of solvency of individuals and  
+- Collection and study of documents, visual assessment of clients, analysis of solvency of individuals and small businesses
+
+
+
+## Education and courses:
+- Tula Institute of Economics and Informatics. *"Finance and Credit"*
+- Novomoskovsk Polytechnic College. *"Banking"*
+- Center Marketing education. *"Business content for social networks"*
+- Gordi school. *"SMM manager"*
+- Europlan Leasing School. *"Sales of leasing products"*
+- VTB Bank. *"McKinsey project training: seven stages of sales"*
+
+
+
+## Language:
+English level - A2
