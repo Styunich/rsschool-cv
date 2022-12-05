@@ -1,6 +1,6 @@
 # Beldyugova Anastasiya
 
-## Junior Project Manager
+## Project Manager
 
 
 ## Contacts:
@@ -49,8 +49,8 @@ function disemvowel(str) {
 
 - Reduced the average annual employee turnover rate from 20% to 3%. Turnover among department heads for 4 years was 0%
 - According to the results of the work, the average increase in the division's turnover was 17% per year
-- Increased the unit's profitability from 15% to 37%, overfulfillment of the profit plan for the last reporting period was 140%
-- The representative branchI lead has repeatedly been awarded the title of "the best division in the region
+- Increased the unit's profitability from 15% to 37%, overfulfilment of the profit plan for the last reporting period was 140%
+- The representative branch I lead has repeatedly been awarded the title of "the best division in the region"
 
 
 ***Claims manager*** - 07/2012-10/2015  
