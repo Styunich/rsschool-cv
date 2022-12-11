@@ -1,12 +1,126 @@
-1      <!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anastasia CV</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#educanion" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+<div class="left-column">
+    <div class="left-card">
+    <h2> About me: </h2>
+    <p>I am a student of RS School, gaining knowledge and skills in JS Front-end.  
+        In the past, I successfully managed a team of about 20 people for several years.  
+        I am a perfectionist, I know how to prioritize, I know how to motivate myself and others to achieve better results.  
+        My main interests are SMM, photography and psychology (CBT).</p>
+    </div>
+    <div class="left-card">
+    <h2 id="skills"> Skills </h2>
+    <ul>
+        <li>HTML5, CSS</li>
+        <li>JavaScript Basics</li>
+        <li>Git, GitHub</li>
+        <li>VS Code</li>
+        <li>Personnel management</li>
+        <li>Work with suppliers</li>
+        <li>Sales: B2B, B2C</li>
+        <li>Financial analysis</li>
+        <li>Design and implementation of advertising campaigns</li>
+        <li>Dealing with claims</li>
+    </ul>
+    </div>
+    <div class="left-card">
+        <h2 id="projects"> Projects </h2>
+        <ul>
+            <li>so far only <a href="https://styunich.github.io/rsschool-cv/" target="_blank" >CV</a></li>
+        </ul>
+    </div>
+    <div class="left-card">
+        <h2 id="languages"> Languages </h2>
+        <ul>
+            <li>Russian: native speaker</li>
+            <li>English: A2 in the process of learning</li>
+        </ul>
+    </div>
+</div>
+<div class="right-column">
+    <div class="right-card">
+        <h2 id="experience"> Experience </h2>
+        <div class="dates">
+            Head of Representative Office/branch - 11/2015-10/2019 Business Lines (transport and logistics company)
+        </div>
+        <div class="details">
+            <ul class="details-title">
+                <li class="details-item">Reduced the average annual employee turnover rate from 20% to 3%. Turnover among department heads for 4 years was 0%</li>
+                <li class="details-item">According to the results of the work, the average increase in the division's turnover was 17% per year</li>
+                <li class="details-item">Increased the unit's profitability from 15% to 37%, overfulfilment of the profit plan for the last reporting period was 140%</li>
+                <li class="details-item">The representative branch I lead has repeatedly been awarded the title of "the best division in the region"</li>
+            </ul>
+        </div> 
+        <div class="dates">
+            Claims manager - 07/2012-10/2015 Business Lines (transport and logistics company)
+        </div>
+        <div class="details">
+            <ul class="details-title">
+                <li class="details-item">Taking all possible measures to settle claims of customers of the company for the carriage of goods at the stage of their occurrence</li>
+                <li class="details-item">Control the correct conduct of inventory of the warehouse</li>
+                <li class="details-item">Record-keeping and distribution of fines and reimbursements on the basis of submitted documents (reports, official notes, etc.)</li>
+            </ul>
+        </div> 
+        <div class="dates">
+            Account manager - 12/2007-09/2010 VTB Bank
+        </div>
+        <div class="details">
+            <ul class="details-title">
+                <li class="details-item">Identification of customers' needs and their focus on the Bank’s key products: training on the McKinsey project, seven stages of sales, handling objections</li>
+                <li class="details-item">Product (service) presentation in the client’s language, adaptation of the sales style to the client’s preferences</li>
+                <li class="details-item">Collection and study of documents, visual assessment of clients, analysis of solvency of individuals and small businesses</li>
+            </ul>
+        </div> 
+        </div>
+    <div class="right-card">
+        <h2 id="educanion"> Education </h2>
+        <ul>
+            <li>Tula Institute of Economics and Informatics. "Finance and Credit"</li>
+            <li>Novomoskovsk Polytechnic College. "Banking"</li>
+            <li>Center Marketing education. "Business content for social networks"</li>
+            <li>Gordi school. "SMM manager"</li>
+            <li>Europlan Leasing School. "Sales of leasing products"</li>
+            <li>VTB Bank. "McKinsey project training: seven stages of sales"</li>
+        </ul>
+    </div>
+    <div class="right-card">
+        <h2 id="code"> Code Example </h2>
+        <h4>DESCRIPTION:</h4>
+        <p>Your task is to write a function that takes a string and return a new string with all vowels removed.
+            For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+            Note: for this kata y isn't considered a vowel.</p>
+            <h4>SOLUTION:</h4>
+        <pre>
+            <code>
+                function disemvowel(str) {
+                    return str.replace(/[aeiou]/gi, ''); 
+                  }
+            </code>
+    </div>
+</div>
+</main>
 </body>
 </html>
