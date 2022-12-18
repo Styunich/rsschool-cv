@@ -120,6 +120,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center; 
+    padding-right: 10px;
 }
 
 .nav-link {
@@ -139,9 +140,9 @@ body {
     padding-left: 250px;
 }
 
-.grid {
+.grid-basic {
     display: grid;
-    grid-template-columns: minmax(5em, 45%) 1fr;
+    grid-template-columns: minmax(5em, 35%) 1fr;
     grid-template-rows: center center;
     grid-gap: 15px 0px;
     vertical-align: middle;
@@ -166,6 +167,10 @@ body {
     margin-bottom: 50px;
     }
 
+    .cv-link {
+        color: rgb(255, 255, 255);
+    }
+
 h2 {
     font: normal 24px 'Oswald', sans-serif;
     margin-bottom: 12px;
@@ -183,12 +188,51 @@ h1 {
     color: rgb(73, 50, 90);
 }
 
+.contacts-item {
+    margin: 10px; 
+}
+
 .icon {
     width: 28px;
-    margin: 5px;
-    margin-left: 30px;
+    margin: auto;
+    }
+
+.contacts-text {
+    font-weight: bold;
+    color: rgb(73, 50, 90);
+    padding-left: 7px;
+}
+
+.icon:hover { 
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(73, 50, 90);
+    transition: 0.3s;
 }
 
 .logo-rss {
     width: 100px;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: minmax(5em, 35%) 1fr;
+    grid-template-rows: center center;
+    grid-gap: 15px 0px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.footer {
+    font-weight: bold;
+    display: flex;
+    align-items:baseline;
+    justify-content:space-between;
+    max-width: 1440px;
+    padding-left: 500px;
+    margin-bottom: 15px;
 }

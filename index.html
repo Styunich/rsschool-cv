@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anastasia CV</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,9 +37,9 @@
     <!-- main start -->
     <main>
 <div class="container">
-    <div class="grid">
+    <div class="grid-basic">
 <div class="left-column">
-    <img class="avatar" src="avatar.jpg" alt="my photo"/>
+    <img class="avatar" src="./assets/img/avatar.jpg" alt="my photo"/>
     <div class="left-card">
     <h2> About me: </h2>
     <p>I am a student of RS School, gaining knowledge and skills in JS Front-end.</p>  
@@ -65,7 +65,7 @@
     <div class="left-card">
         <h2 id="projects"> Projects </h2>
         <ul>
-            <li>so far only <a href="https://styunich.github.io/rsschool-cv/" target="_blank" >CV</a></li>
+            <li><a class="cv-link" href="https://styunich.github.io/rsschool-cv/" target="_blank" >so far only CV</a></li>
         </ul>
     </div>
     <div class="left-card">
@@ -80,15 +80,16 @@
     <h1> Anastasia Beldyugova </h1>
     <div class="right-card">
         <ul class="contacts-list">
-            <li class="contacts-item"><img class="icon" src="place.png" alt="place"><span>Dushanbe</span></li>
-            <li class="contacts-item"><a href="tel:+79307907051"><img class="icon" src="phone.png" alt="phone">+79307907051</a></li>
-            <li class="contacts-item"><a href="mailto:virgo_magna@mail.ru" target="_blank"><img class="icon" src="email.png" alt="email">virgo_magna@mail.ru</a></li>
-            <li class="contacts-item"><a href="https://instagram.com/styu_magna" target="_blank"><img class="icon" src="instagram.png" alt="Instagram"/>@styu_magna</a></li>
-            <li class="contacts-item"><a href="https://t.me/Styunich" target="_blank"><img class="icon" src="telegram.png" alt="Telegram">@Styunich</a></li>
+            <li class="contacts-item"><a href="https://goo.gl/maps/8AVTEZ6GN6dsZ2gw9" target="_blank"><img class="icon" src="./assets/png/place.png" alt="place"><span class="contacts-text">Dushanbe</span></a></li>
+            <li class="contacts-item"><a href="tel:+79307907051"><img class="icon" src="./assets/png/phone.png" alt="phone"><span class="contacts-text">+79307907051</span></a></li>
+            <li class="contacts-item"><a href="mailto:virgo_magna@mail.ru" ><img class="icon" src="./assets/png/email.png" alt="email"><span class="contacts-text">virgo_magna@mail.ru</span></a></li>
+            <li class="contacts-item"><a href="https://instagram.com/styu_magna" target="_blank"><img class="icon" src="./assets/png/instagram.png" alt="Instagram"/><span class="contacts-text">styu_magna</span></a></li>
+            <li class="contacts-item"><a href="https://t.me/Styunich" target="_blank"><img class="icon" src="./assets/png/telegram.png" alt="Telegram"><span class="contacts-text">Styunich</span></a></li>
         </ul>
     </div>
     <div class="right-card">
         <h2 id="experience"> Experience </h2>
+        <div class="experience">
         <div class="dates">
             Head of Representative Office/branch - 11/2015-10/2019 Business Lines (transport and logistics company)
         </div>
@@ -99,7 +100,7 @@
                 <li class="details-item">Increased the unit's profitability from 15% to 37%, overfulfilment of the profit plan for the last reporting period was 140%</li>
                 <li class="details-item">The representative branch I lead has repeatedly been awarded the title of "the best division in the region"</li>
             </ul>
-        </div> 
+        </div>
         <div class="dates">
             Claims manager - 07/2012-10/2015 Business Lines (transport and logistics company)
         </div>
@@ -121,6 +122,7 @@
             </ul>
         </div> 
         </div>
+    </div> 
     <div class="right-card">
         <h2 id="educanion"> Education </h2>
         <ul>
@@ -153,11 +155,9 @@
 <!-- main start -->
 <!-- footer start -->
 <footer class="footer">
-    <div class="container footer-container">
-    <p><a href="https://github.com/styunich" target="_blank">GitHub </a>  2022 </p>
-    <a href="https://rs.school/js/" target="_blank">
-    <img class="logo-rss" src="rs_school_js.svg" alt="avatar rs school"></a>
-</div>
+    <a href="https://github.com/styunich" target="_blank"> <img class="logo-rss" src="./assets/png/git.png" alt="git logo"> </a> <p> 2022 </p>
+    <a href="https://rs.school/js/" target="_blank"><img class="logo-rss" src="rs_school_js.svg" alt="avatar rs school"></a>
+</footer>
 <!-- footer end -->
 </body>
 </html>
