@@ -157,7 +157,7 @@ body {
 }
 
 .avatar {
-    height: 200px;
+    height: 280px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 50%;
@@ -186,6 +186,9 @@ h2 {
 h1 {
     font: normal 40px 'Oswald', sans-serif; 
     color: rgb(73, 50, 90);
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .skills-item:hover {
